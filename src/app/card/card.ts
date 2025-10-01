@@ -5,7 +5,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   standalone: false,
   templateUrl: './card.html',
   styleUrl: './card.css',
-  encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.Emulated,
 })
 export class Card {
   plano = {
