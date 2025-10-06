@@ -1,7 +1,3 @@
-.content{
-  display: flex;
-  justify-content: center;
-}
 .cards-container {
   display: flex;
   justify-content: space-evenly;

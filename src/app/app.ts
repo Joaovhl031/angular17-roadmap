@@ -7,5 +7,6 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('novo-projeto');
+  cardPlanType: string = 'Simples';
+  cardPlanPrice:number = 100;
 }
