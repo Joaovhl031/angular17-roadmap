@@ -10,4 +10,9 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 export class Card {
   @Input('planType') planType: string = '';
   @Input({alias: "planPrice", required:true}) planPrice: number = 0;
+
+
+  buttonClicked(valueEmitted: boolean){
+    console.log('buttonClicked', valueEmitted)
+  }
 }

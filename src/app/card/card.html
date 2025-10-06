@@ -3,5 +3,5 @@
     Plano <b>{{ planType }}</b>
   </div>
   <div class="price">R${{ planPrice }},00/Mes</div>
-  <div class="button">Adquirir</div>
+  <app-card-button (buttonClick)="buttonClicked($event)"></app-card-button>
 </div>
