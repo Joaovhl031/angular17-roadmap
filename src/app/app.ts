@@ -9,4 +9,8 @@ import { Component, signal } from '@angular/core';
 export class App {
   cardPlanType: string = 'Simples';
   cardPlanPrice:number = 100;
+
+  handlePlanType(text:string){
+    this.cardPlanType = text;
+  }
 }
